@@ -19,7 +19,7 @@
         "test": "craco test",
         "eject": "react-scripts eject",
         "lint": "eslint ./src/ --fix",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d build -r https://github.com/kinkusuma/simple-react-quiz-app"
     },
     "eslintConfig": {
         "extends": [
