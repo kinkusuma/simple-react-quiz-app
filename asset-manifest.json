@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simple-react-quiz-app/static/css/main.c08f778e.chunk.css",
+    "main.js": "/simple-react-quiz-app/static/js/main.d6eb5878.chunk.js",
+    "main.js.map": "/simple-react-quiz-app/static/js/main.d6eb5878.chunk.js.map",
+    "runtime-main.js": "/simple-react-quiz-app/static/js/runtime-main.1a7cb7e6.js",
+    "runtime-main.js.map": "/simple-react-quiz-app/static/js/runtime-main.1a7cb7e6.js.map",
+    "static/js/2.add15939.chunk.js": "/simple-react-quiz-app/static/js/2.add15939.chunk.js",
+    "static/js/2.add15939.chunk.js.map": "/simple-react-quiz-app/static/js/2.add15939.chunk.js.map",
+    "static/js/3.c311d881.chunk.js": "/simple-react-quiz-app/static/js/3.c311d881.chunk.js",
+    "static/js/3.c311d881.chunk.js.map": "/simple-react-quiz-app/static/js/3.c311d881.chunk.js.map",
+    "index.html": "/simple-react-quiz-app/index.html",
+    "static/css/main.c08f778e.chunk.css.map": "/simple-react-quiz-app/static/css/main.c08f778e.chunk.css.map",
+    "static/js/2.add15939.chunk.js.LICENSE.txt": "/simple-react-quiz-app/static/js/2.add15939.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a7cb7e6.js",
+    "static/js/2.add15939.chunk.js",
+    "static/css/main.c08f778e.chunk.css",
+    "static/js/main.d6eb5878.chunk.js"
+  ]
+}
