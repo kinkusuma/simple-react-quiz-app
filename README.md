@@ -5,3 +5,4 @@ TODO:
 - [ ] add timer   
 - [x] use axios to get question data 
 - [ ] delay issue useEffect
+- [ ] add animation
