@@ -1,7 +1,8 @@
 /* eslint-disable react/jsx-props-no-spreading */
+// import dummyData from './data/dummy.json';
 import React, { useState, useEffect } from 'react';
 import QuizGenerator from './data/QuizGenerator';
-import dummyData from './data/dummy.json';
+import defaultData from './data/default.json';
 import Question from './components/Question';
 import AnswerList from './components/AnswerList';
 import Score from './components/Score';
@@ -9,7 +10,7 @@ import HitPoints from './components/HitPoints';
 import GameOver from './components/GameOver';
 
 function App() {
-  const [questionData, setQuestion] = useState({ ...dummyData });
+  const [questionData, setQuestion] = useState({ ...defaultData });
   const [token, setToken] = useState('');
   const [score, setScore] = useState(0);
   const [hitPoints, setHitPoints] = useState(3);
