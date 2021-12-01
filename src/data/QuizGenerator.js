@@ -7,7 +7,12 @@ const getToken = async () => {
 
 const getQuestion = async (token) => {
   const response = await axios.get(`https://opentdb.com/api.php?amount=1&token=${token}`);
-  return response.data.results[0];
+  const data = response.data.results[0];
+  data.answers = [
+    data.correct_answer,
+    ...data.incorrect_answers,
+  ].sort(() => Math.random() - 0.5);
+  return data;
 };
 
 export default { getToken, getQuestion };
